@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+
+}
+
 ul {
     list-style: none;
 }
@@ -47,8 +51,10 @@ ul {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: auto; 
 }
 
 .hero-content {
@@ -57,9 +63,20 @@ img {
     padding: 8px 16px;
     gap: 16px;
     flex: auto;
+    margin: 100px;
 }
 
 .hero-item {
+    padding: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
+.logo {
+    border-radius: 50%;
+    width: 90px;
+    height: auto;
+}
+
