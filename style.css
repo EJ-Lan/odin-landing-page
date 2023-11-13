@@ -25,8 +25,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-
+button {
+    color: white;
+    background-color: #3882F6
 }
 
 ul {
@@ -80,3 +81,29 @@ img {
     height: auto;
 }
 
+.player {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.offer-section {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    gap: 52px;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: grey;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title-offer {
+    margin-bottom: 32px;
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1F2937;
+}
