@@ -27,7 +27,7 @@ a {
 
 button {
     color: white;
-    background-color: #3882F6
+    background-color: grey;
 }
 
 ul {
@@ -122,4 +122,43 @@ img {
 .mission-statement-author {
     font-style: none;
     align-self: flex-end;
+}
+
+.card {
+    background: #3882F6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin: 100px;
+    color: white;
+    display: flex;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: space-around;
+    gap: 16px;
+    padding: 16px;
+}
+
+.sign-up {
+    font-size: 12px;
+    padding: 5px 10px; /* Adjust padding to make the button smaller */
+    margin-left: 0; /* Ensure there's no margin on the left */
+}
+
+.join-mail {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mail-content {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    font-size: 12px;
+    align-self: center;
+    background-color: #3882F6;
+    
+}
+
+.footer {
+    text-align: center;
 }
