@@ -20,5 +20,5 @@ MyHoop is a modern, clean, and responsive landing page designed primarily to sho
 To view or modify the MyHoop landing page, you can clone this repository and open the `index.html` file in any modern web browser.
 
 ```bash
-git clone git@github.com:EJ-Lan/MyHoop-Landing.git
+git clone git@github.com:[Your Username]/MyHoop-Landing.git
 
